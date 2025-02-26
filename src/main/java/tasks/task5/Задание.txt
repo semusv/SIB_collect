@@ -1,0 +1,16 @@
+Задача 5 – CollectionsSolution
+
+В классе SolutionCollectionsClass объявлены методы:
+    copy(ArrayList<String>, ArrayList<String>),
+    addAll(ArrayList<String>, String...),
+    replaceAll(ArrayList<String>, String, String).
+    reverse(ArrayList<Integer>),
+    sort(ArrayList<Integer>),
+    rotate(ArrayList<Integer>, int),
+    shuffle(ArrayList<Integer>).
+    min(ArrayList<Integer>),
+    max(ArrayList<Integer>),
+    frequency(ArrayList<Integer>, Integer),
+    binarySearch(ArrayList<Integer>, Integer)
+
+Нужно переписать их реализацию, используя при этом только соответствующие методы класса Collections.

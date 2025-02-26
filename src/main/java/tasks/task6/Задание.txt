@@ -1,0 +1,13 @@
+Задача 6 - SolutionCollectionsClassArray
+Сделайте cвою реализацию каждого из методов без класса Collections
+    copy(ArrayList<String>, ArrayList<String>),
+    addAll(ArrayList<String>, String...),
+    replaceAll(ArrayList<String>, String, String).
+    reverse(ArrayList<Integer>),
+    sort(ArrayList<Integer>),
+    rotate(ArrayList<Integer>, int),
+    shuffle(ArrayList<Integer>).
+    min(ArrayList<Integer>),
+    max(ArrayList<Integer>),
+    frequency(ArrayList<Integer>, Integer),
+    binarySearch(ArrayList<Integer>, Integer)

@@ -1,0 +1,8 @@
+Задача 4 - GenericMethods
+    В методе run создается и заполняется список разными объектами и передается методу checkElementsType(ArrayList<Object>).
+    Твоя задача — реализовать этот метод, который должен определить тип каждого элемента списка, а также:
+
+        Для типа String вызывать printString();
+        Для типа Integer вызывать printInteger();
+        Для типа Integer[] вызывать printIntegerArray();
+        Для всех остальных типов вызывать printUnknown().
