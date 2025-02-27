@@ -2,10 +2,14 @@ package arrayLists;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 
+/**
+ * 3) Пример опказвыает как выполнять сортировку через компаратор и разные способы реализации компораторов
+ */
 public class ArrayListCompare {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("ABAP");
         list.add("Java");
         list.add("Python");

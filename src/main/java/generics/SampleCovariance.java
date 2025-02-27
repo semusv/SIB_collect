@@ -3,7 +3,8 @@ package generics;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SampleWildCard {
+
+public class SampleCovariance {
     public static void main(String[] args) {
         List<Integer> integers = List.of(1, 2, 10, 5);
         List<Number> numbers = new ArrayList<>();
@@ -17,6 +18,7 @@ public class SampleWildCard {
 
     }
 
+    // Использование Ковариантность (? extends) // Контравариантность (? super)
     static void copy(List<? extends Number> src, List<? super Number> dest) {
         //наследник от Number в качестве источника
         //родитель в качестве назначения
@@ -26,13 +28,12 @@ public class SampleWildCard {
 
     }
 
-
     //Параметризованный метод
     static <T extends Comparable<? super T>> T max(List<? extends T> list) {
         //<T extends Comparable<? super T>> - означает что тип возвращаемого результата
         // должен реализовывать интерфейс Comparable
         //При этом Comparable может быть параметризован как самим типом T,
-        // так и любым его супертипом (? super T).
+        // так и любым его супертипом (? super T). - чтобы савнивать не только T c T, но и с супертипом
         if (list.isEmpty()) {
             throw new IllegalArgumentException("Список пуст");
         }

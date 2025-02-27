@@ -3,6 +3,9 @@ package generics;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 3) Пример показывает нижнюю границу WildCard
+ */
 public class LowerBoundedWildcard {
     public static void main(String[] args) {
         List<Number> numbers = new ArrayList<>();

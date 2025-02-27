@@ -3,6 +3,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 6) Пример демонстрирует как преобразовывать массив в лист и обратно
+ */
 public class ArrayListToArray {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();

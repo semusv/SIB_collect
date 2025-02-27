@@ -1,8 +1,9 @@
 package generics;
 
 import java.util.Arrays;
-
-///Пример показывает как можно использовать Generics для создания классов и подстановку типов данных
+/**
+ * 1) Базовый Пример показывает как можно использовать Generics для создания классов и подстановку типов данных
+ */
 public class GenericsClass {
     public static void main(String[] args) {
 

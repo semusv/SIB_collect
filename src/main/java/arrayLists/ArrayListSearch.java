@@ -1,10 +1,14 @@
 package arrayLists;
 
 import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * 4) Пример показывает как можно искать элементы в LIST
+ */
 public class ArrayListSearch {
     public static void main(String[] args) {
-        ArrayList<String> fruits = new ArrayList<>();
+        List<String> fruits = new ArrayList<>();
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Cherry");

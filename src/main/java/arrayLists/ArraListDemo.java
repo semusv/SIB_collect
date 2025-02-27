@@ -3,6 +3,9 @@ package arrayLists;
 import java.util.ArrayList;
 import java.util.List;
 
+/**1) Пример показывет как создавать ArrayList
+ * 2) Пример показывает базовые действия над ArrayList
+ */
 public class ArraListDemo {
     public static void main(String[] args) {
         ArraylistCreate.run();
@@ -12,9 +15,9 @@ public class ArraListDemo {
 
 class ArraylistCreate {
     public static void run(){
-        ArrayList<Integer> list1 = new ArrayList<>();
-        ArrayList<String> list2 = new ArrayList<>();
-        ArrayList<Double> list3 = new ArrayList<>();
+        List<Integer> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+        List<Double> list3 = new ArrayList<>();
 
         System.out.println( list1.getClass() );
         System.out.println( list2.getClass() );
