@@ -3,14 +3,17 @@ package hashMap;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * 1) Пример показывает базовые методы работы с HashTable
+ */
 public class HashMapBase {
-
-
 
     HashMap<String, Integer> map;
     HashMap<String, Integer> map1;
     HashMap<String, Integer> map2;
     HashMap<String, Integer> map3;
+    HashMap<Integer, Integer> map4;
 
     public static void main(String[] args) {
         HashMapBase hashMapBase = new HashMapBase();
@@ -45,16 +48,19 @@ public class HashMapBase {
     }
 
     public void loopElements() {
+        //Бежим по ключам
         System.out.println("\nKeys");
         for (String key : map1.keySet()) {
             System.out.println(key);
         }
 
+        //Бежим по значениям
         System.out.println("\nValues");
         for (Integer value : map1.values()) {
             System.out.println(value);
         }
 
+        //Бежим по Entry парам
         System.out.println("\nEntries");
         for (Map.Entry<String, Integer> entry : map1.entrySet()) {
             String key = entry.getKey();
