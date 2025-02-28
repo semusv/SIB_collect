@@ -19,9 +19,9 @@ public class GenericsClass {
         System.out.println(byteMatrix);
     }
 }
-
-class Matrix<T> {
-    private T[] array;
+// Заменим на <T extends Integer>
+class Matrix<T>{
+    private final T[] array;
     //Конструктор
     public Matrix(T[] array) {
         this.array = array.clone();
