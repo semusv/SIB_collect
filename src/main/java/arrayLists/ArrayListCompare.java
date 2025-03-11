@@ -17,15 +17,16 @@ public class ArrayListCompare {
         list.add("JavaScript");
         list.add("Go");
 
-        // Сортировка по длине строки
-        list.sort(Comparator.comparingInt(String::length));
-        System.out.println("Отсортированный список: " + list);
+//        // Сортировка по длине строки
+//        list.sort(Comparator.comparingInt(value -> value.length()));
+//        System.out.println("Отсортированный список: " + list);
 
         // Сортировка по первой букве
         list.sort(new ComparatorByFirstLetter() );
         System.out.println("Отсортированный список: " + list);
 
         //Сортировка по второй букве
+        //анонимный внутренний класс
         Comparator<String> comporatorBySecond =
                 new Comparator<String>() {
             @Override

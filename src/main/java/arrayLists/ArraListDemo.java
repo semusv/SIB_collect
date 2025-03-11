@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class ArraListDemo {
     public static void main(String[] args) {
-        ArraylistCreate.run();
+//        ArraylistCreate.run();
         ArrayListBaseActions.run();
     }
 }
@@ -32,7 +32,7 @@ class ArrayListBaseActions {
         list.add("a");		//Добавление в конец
         list.add("b");
         list.add("c");
-        list.add(0,"Z");	//Добавление по номеру индекса
+        list.add(1,"Z");	//Добавление по номеру индекса
         list.remove(2);		//Удаление по номеру индекса
 
         System.out.println(list);

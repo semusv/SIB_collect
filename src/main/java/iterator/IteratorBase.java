@@ -18,7 +18,12 @@ public class IteratorBase {
 
         while (it.hasNext()) {
             String str = it.next();
+            if (str.equals("Hola")){
+                it.remove();
+            }
             System.out.println(str);
         }
+
+        System.out.println(set);
     }
 }

@@ -22,7 +22,7 @@ public class SampleCovariance {
     static void copy(List<? extends Number> src, List<? super Number> dest) {
         //наследник от Number в качестве источника
         //родитель в качестве назначения
-        for (Number number : src) { //Можем брать из стоника T
+        for (Number number : src) { //Можем брать из источника T
             dest.add(number); //Можем добавить в назначение T
         }
 
