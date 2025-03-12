@@ -7,13 +7,13 @@ import java.util.List;
 
 public class CollectionsExample {
     public static void main(String[] args) {
-        BinarySearchExample.run();
-        SortCollections.run();
-        CollectionsCopyExample.run();
-        CollectionsExample1.run();
-        CollectionsFillExample.run();
-        CollectionsFrequencyExample.run();
-        CollectionsMinMaxExample.run();
+//        BinarySearchExample.run();
+//        SortCollections.run();
+//        CollectionsCopyExample.run();
+//        CollectionsExample1.run();
+//        CollectionsFillExample.run();
+//        CollectionsFrequencyExample.run();
+//        CollectionsMinMaxExample.run();
         CollectionsRotateExample.run();
     }
 

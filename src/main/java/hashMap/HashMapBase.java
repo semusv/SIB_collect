@@ -19,7 +19,7 @@ public class HashMapBase {
         HashMapBase hashMapBase = new HashMapBase();
         hashMapBase.constructors();
         hashMapBase.loopElements();
-        hashMapBase.print();
+//        hashMapBase.print();
     }
 
     public void constructors() {

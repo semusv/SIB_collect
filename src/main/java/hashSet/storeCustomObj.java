@@ -2,6 +2,8 @@ package hashSet;
 
 import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
+
 /**
  * 5) Если вы хотите хранить в HashSet пользовательские объекты,
  * необходимо переопределить методы equals() и hashCode(),
@@ -9,7 +11,7 @@ import java.util.Objects;
  */
 public class storeCustomObj {
     public static void main(String[] args) {
-        HashSet<Person> set = new HashSet<>();
+        Set<Person> set = new HashSet<>();
         set.add(new Person("Alice", 25));
         set.add(new Person("Bob", 30));
         set.add(new Person("Alice", 25)); // Дубликат

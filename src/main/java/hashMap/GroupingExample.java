@@ -12,7 +12,7 @@ public class GroupingExample {
         List<Student> students = Arrays.asList(
                 new Student("Alice", 20),
                 new Student("Bob", 22),
-                new Student("Charlie", 20),
+                new Student("Charlie", 23),
                 new Student("David", 22)
         );
 
@@ -29,13 +29,16 @@ public class GroupingExample {
     }
 }
 
-@RequiredArgsConstructor
 
 class Student {
-    @NonNull
+
     String name;
-    @NonNull
     int age;
+
+    public Student( String name, int age) {
+        this.age = age;
+        this.name = name;
+    }
 
     @Override
     public String toString() {

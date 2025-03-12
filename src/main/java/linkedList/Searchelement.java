@@ -1,12 +1,15 @@
 package linkedList;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
+
 /**
  * 4) LinkedList поддерживает поиск элементов по индексу или значению.
  */
 public class Searchelement {
     public static void main(String[] args) {
-        LinkedList<String> list = new LinkedList<>();
+        List<String> list = new ArrayList<>();
         list.add("Apple");
         list.add("Banana");
         list.add("Cherry");

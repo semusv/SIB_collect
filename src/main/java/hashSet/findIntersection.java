@@ -12,6 +12,7 @@ public class findIntersection {
 
         HashSet<String> set2 = new HashSet<>();
         set2.add("banana");
+        set2.add("orange");
         set2.add("grape");
         set2.add("pear");
 

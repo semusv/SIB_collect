@@ -2,13 +2,14 @@ package hashSet;
 
 import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 /**
  * 1) Пример показывает базовые методы работы с HashSet
  */
 public class HashSetBase {
     public static void main(String[] args) {
-        HashSet<String> set = new HashSet<String>();
+        Set<String> set = new HashSet<String>();
 
         set.add("Привет");
         set.add("Hello");
